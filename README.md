@@ -5,7 +5,7 @@
 ## Executive summary
 The dashboard summarizes 500 encounter rows across service volume, revenue, case mix, and length of stay. It reports 498 distinct case numbers; that difference should be checked before using the case count as a unique-patient or encounter total.
 
-![Healthcare Analytics dashboard from Tableau Public](assets/dashboard-overview.png)
+![Healthcare Analytics dashboard from Tableau Public](data_visualization_and_analysis/dashboard-overview.png)
 
 
 ## Business question and pipeline
@@ -43,11 +43,10 @@ No predictive or statistical model is reported; this is a descriptive dashboard.
 2. Compare LOS by inpatient/outpatient status and specialty so zero-day outpatient cases do not obscure inpatient patterns.
 3. Review revenue together with case mix and case type; confirm currency and avoid treating revenue alone as margin or efficiency.
 
-## Evidence and proposed structure
-- I use the Excel source at `data/Hospital_Dashboard_Dataset.xlsx` to support my dashboard analysis.
-- Repo contents: `README.md`, `assets/`, `data/`, and `docs/`.
+## Project files
+- My analysis uses the Excel source at `data/Hospital_Dashboard_Dataset.xlsx` to support my dashboard analysis.
+- Repo contents: `README.md`, `data_visualization_and_analysis/`, `data/`, and `docs/`.
 
-**Publication note:** The workbook contains healthcare-related fields and identifiers. The supplied dataset was confirmed de-identified and cleared for public release. The local project has no formal BRD/FRD, As-Is workflow, or stakeholder plan; none is inferred here.
 
 ## Supporting documents
 
