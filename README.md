@@ -5,7 +5,7 @@
 ## Executive summary
 The dashboard summarizes 500 encounter rows across service volume, revenue, case mix, and length of stay. It reports 498 distinct case numbers; that difference should be checked before using the case count as a unique-patient or encounter total.
 
-![Healthcare Analytics Tableau dashboard](assets/dashboard-overview.png)
+![Healthcare Analytics dashboard from Tableau Public](assets/dashboard-overview.png)
 
 
 ## Business question and pipeline
@@ -56,5 +56,4 @@ No predictive or statistical model is reported; this is a descriptive dashboard.
 - [Functional requirements summary](docs/FRD-Summary.md)
 
 The source reports do not document an existing-state (As-Is) process; none is presented as fact.
-
 
