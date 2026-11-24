@@ -44,7 +44,7 @@ No predictive or statistical model is reported; this is a descriptive dashboard.
 3. Review revenue together with case mix and case type; confirm currency and avoid treating revenue alone as margin or efficiency.
 
 ## Evidence and proposed structure
-- The de-identified Excel source is included at `data/Hospital_Dashboard_Dataset.xlsx`. The local Tableau workbook is `.twb` rather than a packaged `.twbx`, so it is not included.
+- I use the Excel source at `data/Hospital_Dashboard_Dataset.xlsx` to support my dashboard analysis.
 - Repo contents: `README.md`, `assets/`, `data/`, and `docs/`.
 
 **Publication note:** The workbook contains healthcare-related fields and identifiers. The supplied dataset was confirmed de-identified and cleared for public release. The local project has no formal BRD/FRD, As-Is workflow, or stakeholder plan; none is inferred here.
@@ -53,7 +53,4 @@ No predictive or statistical model is reported; this is a descriptive dashboard.
 
 - [Executive summary](docs/Executive-Summary.md)
 - [Business requirements summary](docs/BRD-Summary.md)
-- [Functional requirements summary](docs/FRD-Summary.md)
-
-The source reports do not document an existing-state (As-Is) process; none is presented as fact.
-
+- [Functional requirements summary](docs/FRD-Summary.md)
