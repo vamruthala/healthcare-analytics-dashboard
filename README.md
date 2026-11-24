@@ -44,10 +44,10 @@ No predictive or statistical model is reported; this is a descriptive dashboard.
 3. Review revenue together with case mix and case type; confirm currency and avoid treating revenue alone as margin or efficiency.
 
 ## Evidence and proposed structure
-- A local `.twb` workbook and healthcare dataset are available, but neither is included in this public repo: the workbook is not packaged as `.twbx`, and the source contains case-level healthcare records.
-- Repo contents: `README.md`, `assets/`, and `docs/`. A packaged workbook and row-level data are omitted pending public-release clearance.
+- The de-identified Excel source is included at `data/Hospital_Dashboard_Dataset.xlsx`. The local Tableau workbook is `.twb` rather than a packaged `.twbx`, so it is not included.
+- Repo contents: `README.md`, `assets/`, `data/`, and `docs/`.
 
-**Publication note:** The workbook contains healthcare-related fields and identifiers. Keep row-level data out of the public repository unless it is cleared. The local project has no formal BRD/FRD, As-Is workflow, or stakeholder plan; none is inferred here.
+**Publication note:** The workbook contains healthcare-related fields and identifiers. The supplied dataset was confirmed de-identified and cleared for public release. The local project has no formal BRD/FRD, As-Is workflow, or stakeholder plan; none is inferred here.
 
 ## Supporting documents
 
