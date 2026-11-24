@@ -1,7 +1,4 @@
 # Business Requirements Summary
-
-*Condensed from the dashboard/report; not a formally approved BRD.*
-
 - **Business question:** How do volume, recorded revenue, LOS, and case mix vary across service dimensions?
 - **Decision supported:** Identify specialty, case, payer, or time segments for operational review.
 - **Scope:** Encounter-level dashboard summaries; source report references 500 rows and 498 distinct case IDs.
